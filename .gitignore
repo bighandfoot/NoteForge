@@ -1,0 +1,25 @@
+# build output
+build/
+build-*/
+out/
+*.log
+
+# packaged downloads go to GitHub Releases, not into the repository
+dist/
+
+# test results and private recordings - never commit these
+test-out/
+real-vocals/
+samples/
+*.wav
+*.aif
+*.aiff
+*.mp3
+
+# editors / OS
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+desktop.ini

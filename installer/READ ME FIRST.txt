@@ -1,0 +1,41 @@
+NoteForge - Melodyne-style vocal editing + live auto-tune for FL Studio
+=====================================================================
+Windows 10/11, 64-bit, VST3. Nothing else needs to be installed.
+
+INSTALL
+  1. Close FL Studio.
+  2. Double-click "Install NoteForge.bat" and click Yes when Windows asks for permission.
+  3. Open FL Studio > Options > Manage plugins > "Find installed plugins".
+  4. Add NoteForge as an effect on your vocal's mixer track (first slot, before reverb/delay).
+
+  (Manual install: copy the "NoteForge.vst3" folder to C:\Program Files\Common Files\VST3\)
+
+EDIT A VOCAL (Melodyne style)
+  - Drag a vocal file (WAV/AIFF/FLAC/OGG/MP3) onto NoteForge, then press play once:
+    NoteForge finds where the file sits in your song by itself.
+  - Or click TRANSFER and play the part you want to edit.
+  - Drag notes up/down to change pitch, drag their edges to change timing, use the tools
+    (Pitch, Time, Vibrato, Drift, Formant, Amp, Split) and "Correct Pitch..." for one-click tuning.
+  - The small piano in the toolbar chooses which notes it tunes to. Click a key on the big
+    keyboard to hear that note.
+
+LIVE AUTO-TUNE (while recording)
+  - Click LIVE. Engine "Low latency (recording)" while you record, "High quality (mixing)" for the mix.
+  - Voice range "Auto" works for any voice. BYPASS lets you compare with and without tuning.
+  - Turn off direct monitoring on your audio interface, use an ASIO buffer of 128-256 samples,
+    and turn off "Smart disable" for NoteForge.
+
+OPTIONAL: LET NOTEFORGE MOVE FL'S PLAYHEAD
+  1. Install loopMIDI (tobias-erichsen.de/software/loopmidi.html), create a port named NoteForge.
+  2. FL Studio > Options > MIDI settings > Input: select "NoteForge", click Enable,
+     Controller type: "NoteForge Bridge (user)".
+  3. The "FL link" button in NoteForge turns green. Now the marker tab on the ruler moves FL's
+     playhead and the Play button starts FL from it.
+
+TIPS
+  - Hover over any knob or button for ~2 seconds to see what it does.
+  - Right-click a knob or slider to reset it or type a value.
+  - Mouse wheel on the time ruler zooms, like FL.
+
+Piano sounds: Steinway Model B recordings from the University of Iowa Electronic Music Studios
+(theremin.music.uiowa.edu), free for any use.

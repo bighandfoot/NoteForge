@@ -1,0 +1,6 @@
+# normalise text files to LF in the repository; Windows scripts keep CRLF when checked out
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.flac binary
+*.png binary
