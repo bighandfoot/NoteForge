@@ -1,8 +1,14 @@
-# NoteForge
+# NoteForge: free auto-tune & pitch correction plugin for FL Studio
 
-**Melodyne-style vocal editing and live auto-tune for FL Studio.** It's a free VST3 plugin for Windows.
+**A free auto-tune VST3 plugin for Windows.** It does real-time auto-tune for recording and Melodyne-style vocal pitch editing, in one plugin. No subscription and no sign-up: [download it here](../../releases/latest).
 
 ![NoteForge edit mode: notes as blobs with pitch curves over a harmonic spectrum](docs/images/ui_full_edit.png)
+
+**What you can do with it:**
+
+- **Live auto-tune** while you record, from a natural correction to the hard "T-Pain" effect.
+- **Fix individual notes after recording**, like Melodyne: pitch, timing, vibrato and formant.
+- **Use it in FL Studio**, or any DAW that loads VST3 plugins on Windows.
 
 NoteForge shows your vocal as notes on a piano roll. Each note is a "blob" with its real pitch curve and the harmonics behind it. You drag the notes to fix pitch and timing, flatten or exaggerate vibrato, and change the character of the voice. It also has a real-time auto-tune mode for recording, with a delay low enough to sing through.
 
@@ -56,7 +62,7 @@ NoteForge shows your vocal as notes on a piano roll. Each note is a "blob" with 
 
 ## Download & install
 
-1. Download **`NoteForge-Windows.zip`** from the [**Releases**](../../releases) page and unzip it.
+1. Download **`NoteForge-Windows.zip`** from the [**Releases**](../../releases/latest) page and unzip it.
 2. Close FL Studio and double-click **`Install NoteForge.bat`**. Click *Yes* when Windows asks for permission.
 3. In FL Studio, open **Options → Manage plugins → Find installed plugins**.
 4. Put **NoteForge** on your vocal's mixer track, in the first slot (before reverb and delay).
