@@ -2,6 +2,8 @@
 
 **A free auto-tune VST3 plugin for Windows.** It does real-time auto-tune for recording and Melodyne-style vocal pitch editing, in one plugin. No subscription and no sign-up: [download it here](../../releases/latest).
 
+⭐ **If NoteForge helps you, please star this repo. It really helps other producers find it. Thank you!**
+
 ![NoteForge edit mode: notes as blobs with pitch curves over a harmonic spectrum](docs/images/ui_full_edit.png)
 
 **What you can do with it:**
