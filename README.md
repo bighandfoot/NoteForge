@@ -188,6 +188,11 @@ Project layout:
 - **No ARA.** FL Studio doesn't support ARA, so audio has to be dropped in or transferred by playing it.
 - **Windows only** for now. A macOS build would need compiling on a Mac.
 
+## Contact
+
+- **Bugs and feature requests:** please [open an issue](../../issues), so others can see and follow it too.
+- **Anything else** (questions, feedback, collaborations): email [noteforgeplugin@gmail.com](mailto:noteforgeplugin@gmail.com).
+
 ## Credits
 
 - Built with [JUCE](https://juce.com).
